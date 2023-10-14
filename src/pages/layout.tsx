@@ -12,11 +12,11 @@ export const poppins = Poppins({
 const stapel = localFont({
   src: [
     {
-      path: "/fonts/Stapel-ExpandedBlack.ttf",
+      path: "../../public/fonts/Stapel-ExpandedBlack.ttf",
       weight: "900",
     },
     {
-      path: "/fonts/Stapel-SemiExpandedExtraBold.ttf",
+      path: "../../public/fonts/Stapel-SemiExpandedExtraBold.ttf",
       weight: "700",
     },
   ],
