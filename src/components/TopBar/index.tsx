@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import {navItems} from "../../../db/constants";
-import Logo from "../../../public/images/logo.png";
+import Logo from "../../../public/images/logo.svg";
 import {usePathname} from "next/navigation";
 import Link from "next/link";
 import {FiLogIn} from "react-icons/fi";
@@ -14,7 +14,7 @@ interface TopBarProps {
 const TopBar = ({toggleDrawer}: TopBarProps) => {
   const pathName = usePathname();
   return (
-    <div className='border-b border-[rgba(0, 0, 0, 0.10)] w-full'>
+    <div className='border-b border-[rgba(0, 0, 0, 0.10)] w-full sticky top-0 bg-[#fdfbfb] z-20'>
       <div className='flex w-full px-3 lg:px-10 font-pop py-2 md:py-4 items-center justify-between'>
         <div className='w-8/12 flex'>
           <div className='flex items-center lg:w-5/12'>
@@ -47,7 +47,7 @@ const TopBar = ({toggleDrawer}: TopBarProps) => {
           </div>
         </div>
 
-        <div className='hidden lg:flex items-center bg-primary py-1 md:py-3 px-2 lg:px-6 '>
+        <div className='hidden lg:flex items-center bg-primary py-1 md:py-3 px-2 lg:px-6 cursor-pointer'>
           <p className='pr-3 font-bold text-white'>Get The App</p>
           <FiLogIn className='text-white w-6 h-6' />
         </div>

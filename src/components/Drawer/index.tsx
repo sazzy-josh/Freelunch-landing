@@ -2,7 +2,7 @@ import Image from "next/image";
 import React from "react";
 import {CgClose} from "react-icons/cg";
 import {navItems} from "../../../db/constants";
-import Logo from "../../../public/images/logo.png";
+import Logo from "../../../public/images/logo.svg";
 import {usePathname} from "next/navigation";
 import Link from "next/link";
 
@@ -15,7 +15,7 @@ const NavDrawer = ({toggleDrawer, isNavOpen}: NavDrawerProps) => {
   const pathName = usePathname();
   return (
     <div
-      className={`fixed lg:hidden inset-0 bg-black bg-opacity-75 z-50 transition-all ${
+      className={`fixed lg:hidden inset-0 bg-black bg-opacity-75 z-[1000] transition-all ${
         isNavOpen ? "translate-x-0" : "-translate-x-full"
       }`}
     >

@@ -9,7 +9,7 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
+        "hero-bg": "url('/public/images/mask-bg.png')",
       },
       fontFamily: {
         pop: ["var(--poppins)"],
@@ -19,16 +19,9 @@ const config: Config = {
         white: "#ffffff",
         primary: "#04764E",
         neutral: "#A3A3A3",
+        darkNeutral: "#737373",
+        secondary: "#EFCE82",
       },
-      // container: {
-      //   padding: {
-      //     DEFAULT: "10px",
-      //     sm: "20px",
-      //     lg: "32px",
-      //     xl: "32px",
-      //     "2xl": "32px",
-      //   },
-      // },
     },
   },
   plugins: [

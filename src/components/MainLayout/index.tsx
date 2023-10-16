@@ -1,5 +1,4 @@
 import React, {ReactNode, useState} from "react";
-import {usePathname} from "next/navigation";
 import NavDrawer from "../Drawer/index";
 import TopBar from "../TopBar/index";
 
