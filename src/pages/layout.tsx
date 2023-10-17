@@ -13,11 +13,15 @@ const stapel = localFont({
   src: [
     {
       path: "../../public/fonts/Stapel-ExpandedBlack.ttf",
-      weight: "900",
+      weight: "600",
+    },
+    {
+      path: "../../public/fonts/Stapel-SemiExpandedBold.ttf",
+      weight: "700",
     },
     {
       path: "../../public/fonts/Stapel-SemiExpandedExtraBold.ttf",
-      weight: "700",
+      weight: "900",
     },
   ],
   variable: "--font-stapel",

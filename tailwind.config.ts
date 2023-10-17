@@ -18,9 +18,10 @@ const config: Config = {
       colors: {
         white: "#ffffff",
         primary: "#04764E",
+        secondary: "#EFCE82",
         neutral: "#A3A3A3",
         darkNeutral: "#737373",
-        secondary: "#EFCE82",
+        peach: "#E4B2A6",
       },
     },
   },
